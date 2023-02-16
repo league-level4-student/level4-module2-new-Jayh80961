@@ -38,6 +38,6 @@ public class ObjectsList {
             s += list[i] + ", ";
         }
         s += list[list.length - 1] + "]";
-        return s;
+        return s;  
     }
 }

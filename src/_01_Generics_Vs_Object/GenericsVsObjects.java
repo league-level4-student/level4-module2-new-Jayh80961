@@ -14,7 +14,7 @@ public class GenericsVsObjects {
         GenericsList<String> generics = new GenericsList<String>();
         generics.add("Bob");
         generics.add("Anne");
-        generics.add(5);
+        //generics.add(5); There is a int inside the string parameter. 
         generics.add("Tom");
 
         /*
@@ -35,14 +35,15 @@ public class GenericsVsObjects {
             System.out.println(s);
         }
         for (int i = 0; i < objects.length(); i++) {
-            String s = (String) objects.get(i);
+            //String s = (String) objects.get(i);
+        	String s = objects.get(i).toString();
             System.out.println(s);
         }
 
-        /*
-         * AFTER looking over the code, run it and see what happens.
-         * 
-         * This is one of the reasons Generics are preferred over simply
+        /*    
+         * AFTER looking over the code, run it and see what happens.  There is an error when converting the object with int into string.   
+         *   
+         * This is one of the reasons Generics are preferred over simply   
          * declaring something as an Object
          */
 
