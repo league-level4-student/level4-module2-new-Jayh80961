@@ -19,6 +19,6 @@ public abstract class Food {
         } catch (IOException e) {
             e.printStackTrace();
             return null;
-        }
+        } 
     }
 }

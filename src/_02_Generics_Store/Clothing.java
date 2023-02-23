@@ -16,7 +16,7 @@ public class Clothing extends NonFood{
 
 	@Override
 	public JLabel getNonFood() {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method stub 
 		return new JLabel(loadImage(this.item));
 	}
 }

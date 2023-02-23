@@ -24,8 +24,8 @@ public class ObjectsList {
         for (int i = 0; i < list.length; i++) {
             oList[i] = list[i];
         }
-        oList[list.length] = val;
-        list = oList;
+        oList[list.length] = val; 
+        list = oList; 
     }
 
     public int length() {

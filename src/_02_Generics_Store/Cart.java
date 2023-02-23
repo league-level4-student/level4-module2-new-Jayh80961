@@ -38,11 +38,11 @@ public class Cart<T extends Food> {
         frame.add(panel);
         frame.setVisible(true);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
+         
         for (int i = 0; i < cart.length; i++) {
             if (cart[i] != null) {
                 panel.add(cart[i].getFood());
-            }
+            }        
         }
         frame.pack();
 
