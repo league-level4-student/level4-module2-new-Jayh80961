@@ -32,7 +32,7 @@ public class GoShopping {
 		// 7. Comment out the code you have so far
 		
 		// 8. Repeat steps 2-5 for a Clothing Cart and a Toy Cart
-		Cart<> cart2 = new Cart[]
+		Cart<> cart2 = new Cart[];
 		Cart<Candy> cart3 = new Cart<Candy>();
 		
 		
